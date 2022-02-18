@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(82, 78, 78);
+}
+.navbar {
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+.navbar img {
+    width: 50px;
+    height: 45px;
+    border: 1px solid green;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 25px;
+}
+.navbar ul li {
+    display: inline;
+    vertical-align: middle;
+    padding: 25px;
+}
+.navbar ul li a {
+    /* display: block; */
+    color: white;
+    border: 1px solid green;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
