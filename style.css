@@ -11,6 +11,8 @@ body {
 .navbar img {
     width: 20px;
     height: 20px;
+    margin-top: 8px;
+    background-color: white;
     border: 1px solid green;
 }
 .navbar ul {
@@ -24,9 +26,27 @@ body {
 }
 .navbar ul li a {
     /* display: block; */
-    color: white;
+    color: black;
+    background-color: white;
     border: 1px solid green;
     padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
+}
+.notes {
+    width: 300px;
+    position: fixed;
+    margin-top: 0;
+}
+.notes .content {
+    width: 300px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 330px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
